@@ -153,8 +153,26 @@ body{
 }
 
 .d-1--right{
-    width: 90px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.d-1-image{
+    border: 1px solid #000;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.d-1-image.small{
+    width: 70%;
+}
+
+.d-1-image img{
+    width: 100%;
 }
 
 
